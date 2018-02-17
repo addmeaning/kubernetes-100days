@@ -1,6 +1,6 @@
 # Kubernetes
 ### Notes from Kubernetes: Up and Running
-#### chapter 5. Labels
+#### chapter 6. Labels
 Labels are simple string key value pairs to define metadata for object.
 
 **Rules for pairs**
