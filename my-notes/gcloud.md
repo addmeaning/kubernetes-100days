@@ -21,5 +21,9 @@ And get credentials for a cluster
 gcloud container clusters get-credentials [CLUSTER_NAME]
 ```
 
+kubectl create clusterrolebinding cluster-admin-binding \
+--clusterrole cluster-admin --user $(gcloud config get-value account)
+(remember to add defaultservice account to that group)
+
 You are ready to go!
 You now can use `kubectl` to manage cloud cluster
