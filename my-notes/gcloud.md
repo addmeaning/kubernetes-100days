@@ -4,6 +4,11 @@
 First of all install cloud SDK
 >https://cloud.google.com/sdk/docs/quickstarts
 
+Initialize project
+
+```
+gcloud init
+```
 Set project & compute zone
 
 ```
